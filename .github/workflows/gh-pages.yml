@@ -35,5 +35,7 @@ jobs:
         # below accordingly.
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./public
+          publish_branch: main
+          external_repository: haodu007/haodu007.github.io # 修改为你的 GitHub Pages 仓库
