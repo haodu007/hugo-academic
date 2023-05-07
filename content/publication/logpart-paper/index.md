@@ -92,10 +92,6 @@ By an analogue of Algorithm **AddInt_log**, we can also find elementary integral
 ![SprimInt](SprimInt.png)
 
 {{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
 click the  _PDF_  button to download the paper.
 {{% /callout %}}
 
