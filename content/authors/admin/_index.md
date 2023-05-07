@@ -72,15 +72,14 @@ education:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
-
+#I've Published 3 papers and 1 poster at The International Symposium on Symbolic and Algebraic Computation (ISSAC), 
+#which is the top conference in the field of symbolic computation, 
+#and 3 papers in journals such as Journal of Systems Science and Complexity and European Journal of Combinatorics. 
+#She served as a member of the Short Communications Committee of ISSAC 2021 
+#and organized the Algorithmic Combinatorics Session of International Conference on Applications of Computer Algebra (ACA2021).
+#{style="text-align: justify;"}
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My research interests includes symbolic computation and differential/difference algebra. 
+My research interests include symbolic computation and differential/difference algebra. 
 
-I've Published 3 papers and 1 poster at The International Symposium on Symbolic and Algebraic Computation (ISSAC), 
-which is the top conference in the field of symbolic computation, 
-and 3 papers in journals such as Journal of Systems Science and Complexity and European Journal of Combinatorics. 
-She served as a member of the Short Communications Committee of ISSAC 2021 
-and organized the Algorithmic Combinatorics Session of International Conference on Applications of Computer Algebra (ACA2021).
-{style="text-align: justify;"}
