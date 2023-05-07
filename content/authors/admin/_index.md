@@ -7,8 +7,8 @@ first_name: Hao
 last_name: Du
 
 # Status emoji
-status:
-  icon: ☕️
+#status:
+#  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -22,7 +22,7 @@ organizations:
     url: https://www.bupt.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include symbolic computation and differential/difference algebra.
+bio: Research interests include symbolic computation and differential/difference algebra.
 
 # Interests to show in About widget
 #interests:
@@ -44,22 +44,22 @@ education:
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  #- icon: twitter
-  #  icon_pack: fab
-  #  link: https://twitter.com/GeorgeCushen
-  #  label: Follow me on Twitter
-  #  display:
-  #    header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+#social:
+#  - icon: envelope
+#    icon_pack: fas
+#    link: '/#contact'
+#  #- icon: twitter
+#  #  icon_pack: fab
+#  #  link: https://twitter.com/GeorgeCushen
+#  #  label: Follow me on Twitter
+#  #  display:
+#  #    header: true
+#  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+#    icon_pack: fas
+#    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#  - icon: github
+#    icon_pack: fab
+#    link: https://github.com/gcushen
   #- icon: linkedin
   #  icon_pack: fab
   #  link: https://www.linkedin.com/
@@ -76,9 +76,9 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hao Du is a lecturer at the School of Sciences, Beijing University of Posts and Telecommunications. Her research interests include symbolic computation and differential/difference algebra. 
+My research interests includes symbolic computation and differential/difference algebra. 
 
-She has Published 3 papers and 1 poster at The International Symposium on Symbolic and Algebraic Computation (ISSAC), 
+I've Published 3 papers and 1 poster at The International Symposium on Symbolic and Algebraic Computation (ISSAC), 
 which is the top conference in the field of symbolic computation, 
 and 3 papers in journals such as Journal of Systems Science and Complexity and European Journal of Combinatorics. 
 She served as a member of the Short Communications Committee of ISSAC 2021 

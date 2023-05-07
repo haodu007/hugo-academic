@@ -30,8 +30,8 @@ publishDate: '2023-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *ISSAC*
-publication_short: In *ISSAC*
+publication: In *Proceedings of ISSAC'23*
+#publication_short: In *Proceedings of {ISSAC}'23*
 
 abstract: We present two evaluation-based algorithms, one for computing logarithmic parts and the other for determining complete logarithmic parts in transcendental function integration. Empirical results illustrate that the new algorithms are markedly faster than those based respectively on resultants, contraction of ideals, subresultants and Gröbner bases. They may speed up Risch’s algorithm for transcendental integrands, and help us to compute elementary integrals over logarithmic towers efficiently.conference-paper
 
@@ -78,12 +78,27 @@ projects:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
----
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
+--------
+## LogInt
+Given an elementary integrable element in a logarithmic tower, for example, {{< math >}} $\mathbb{C}(x, \log(x))$ {{< /math >}}, the Algorithm AddInt_log can find its elementary integral, while "int" command in Maple can only return the input without computing.
+![LogInt](LogInt.png)
+
+## LogPart
+Given an element in {{< math >}} $\mathbb{C}(x, \log(x), \log(\log(x)))$ {{< /math >}}, the Algorithm EH and Algorithm {{< math >}}EH$^*$ {{< /math >}} can compute its logarithmic part and the complete logarithmic part, respectively.
+![LogPart](LogPart.png)
+
+## SprimInt
+By an analogue of Algorithm AddInt_log, we can also find elementary integrals for elements in S-primitive towers while Maple int cannot.
+![SprimInt](SprimInt.png)
+
 {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
 {{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
+click the  _PDF_  button to download the paper.
+{{% /callout %}}
+
+{{% callout note %}}
+click th  _Code_  button to get maple code link(in github).
 {{% /callout %}}
