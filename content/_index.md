@@ -27,12 +27,27 @@ sections:
       items:
         - title: Lecturer
           company: Beijing University of Posts and Telecommunications
-          company_url: ''
+          company_url: 'https://science.bupt.edu.cn/'
           company_logo: org-x
           location: Beijing
-          date_start: '2021-07-01'
+          date_start: '2021-06-13'
           date_end: ''
-          description: Taught advanced math.
+          #description: Taught advanced math.
+        - title: Research Scientist
+          company: Institute of Algebra，Johannes Kepler University Linz
+          company_url: 'https://www.jku.at/'
+          #company_logo: org-x
+          location: Linz
+          date_start: '2021-01-01'
+          date_end: '2021-06-12'
+        - title: Research Scientist
+          company: RICAM Institute， Austrian Academy of Sciences
+          company_url: 'https://www.oeaw.ac.at/ricam/'
+          #company_logo: org-x
+          location: Linz
+          date_start: '2019-07-13'
+          date_end: '2020-12-31'
+          #description: Taught advanced math.
     design:
       columns: '1'
   #- block: accomplishments
@@ -74,33 +89,33 @@ sections:
   #        url: ''
   #  design:
   #    columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+  #- block: collection
+  #  id: posts
+  #  content:
+  #    title: Recent Posts
+  #    subtitle: ''
+  #    text: ''
+  #    # Choose how many pages you would like to display (0 = all pages)
+  #    count: 5
+  #    # Filter on criteria
+  #    filters:
+  #      folders:
+  #        - post
+  #      author: ""
+  #      category: ""
+  #      tag: ""
+  #      exclude_featured: false
+  #      exclude_future: false
+  #      exclude_past: false
+  #      publication_type: ""
+  #    # Choose how many pages you would like to offset by
+  #    offset: 0
+  #    # Page order: descending (desc) or ascending (asc) date.
+  #    order: desc
+  #  design:
+  #    # Choose a layout view
+  #    view: compact
+  #    columns: '2'
   #- block: portfolio
   #  id: projects
   #  content:
@@ -128,17 +143,17 @@ sections:
   #    view: showcase
   #    # For Showcase view, flip alternate rows?
   #    flip_alt_rows: false
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
+  #- block: collection
+  #  id: featured
+  #  content:
+  #    title: Featured Publications
+  #    filters:
+  #      folders:
+  #        - publication
+  #      featured_only: true
+  #  design:
+  #    columns: '2'
+  #    view: card
   - block: collection
     content:
       title: Recent Publications
@@ -163,42 +178,42 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  #- block: tag_cloud
+  #  content:
+  #    title: Popular Topics
+  #  design:
+  #    columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      #text: |-
+      #  contact me:
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
+      email: haodu@bupt.edu.cn
+      phone: 133 0110 3152
       appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      contact_links:
+        street: South Third Street, Changping District
+        city: Beijing
+        #region: CA
+        postcode: '102206'
+        country: China
+        #country_code: US
+      directions: Building of Science, Room 420
+      #office_hours:
+      #  - 'Monday 10:00 to 13:00'
+      #  - 'Wednesday 09:00 to 10:00'
+      #contact_links:
         #- icon: twitter
         #  icon_pack: fab
         #  name: DM Me
         #  link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
+       # - icon: skype
+       #   icon_pack: fab
+       #   name: Skype Me
+       #   link: 'skype:echo123?call'
         #- icon: video
         #  icon_pack: fas
         #  name: Zoom Me

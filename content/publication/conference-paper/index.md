@@ -14,6 +14,8 @@ authors:
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
 
 date: '2023-07-01T00:00:00Z'
 doi: ''
@@ -39,7 +41,7 @@ summary: TODO add
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
@@ -47,7 +49,7 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'http://www.mmrc.iss.ac.cn/~zmli/ISSAC2023/ISSAC2023.pdf'
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+url_code: 'https://github.com/haodu007/LogPart'
 #url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 #url_poster: ''
 #url_project: ''
@@ -77,7 +79,7 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
 {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}

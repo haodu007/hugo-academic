@@ -22,26 +22,23 @@ organizations:
     url: https://www.bupt.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include symbolic computation and differential/difference algebra.
 
 # Interests to show in About widget
-interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+#interests:
+#  - Artificial Intelligence
+#  - Computational Linguistics
+#  - Information Retrieval
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Applied Mathematics
+      institution: Chinese Academy of Sciences
+      year: 2019
+    - course: BSc in Mathematics and Applied Mathematics
+      institution: Beihang University
+      year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -79,6 +76,11 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-TODO haodu
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hao Du is a lecturer at the School of Sciences, Beijing University of Posts and Telecommunications. Her research interests include symbolic computation and differential/difference algebra. 
+
+She has Published 3 papers and 1 poster at The International Symposium on Symbolic and Algebraic Computation (ISSAC), 
+which is the top conference in the field of symbolic computation, 
+and 3 papers in journals such as Journal of Systems Science and Complexity and European Journal of Combinatorics. 
+She served as a member of the Short Communications Committee of ISSAC 2021 
+and organized the Algorithmic Combinatorics Session of International Conference on Applications of Computer Algebra (ACA2021).
 {style="text-align: justify;"}
