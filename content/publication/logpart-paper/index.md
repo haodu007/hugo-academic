@@ -33,7 +33,7 @@ publication_types: ['1']
 publication: In *Proceedings of ISSAC'23*
 #publication_short: In *Proceedings of {ISSAC}'23*
 
-abstract: We present two evaluation-based algorithms, one for computing logarithmic parts and the other for determining complete logarithmic parts in transcendental function integration. Empirical results illustrate that the new algorithms are markedly faster than those based respectively on resultants, contraction of ideals, subresultants and Gröbner bases. They may speed up Risch’s algorithm for transcendental integrands, and help us to compute elementary integrals over logarithmic towers efficiently.conference-paper
+abstract: We present two evaluation-based algorithms, one for computing logarithmic parts and the other for determining complete logarithmic parts in transcendental function integration. Empirical results illustrate that the new algorithms are markedly faster than those based respectively on resultants, contraction of ideals, subresultants and Gröbner bases. They may speed up Risch’s algorithm for transcendental integrands, and help us to compute elementary integrals over logarithmic towers efficiently.
 
 # Summary. An optional shortened abstract.
 summary: TODO add
@@ -80,15 +80,15 @@ projects:
 slides: ""
 --------
 ## LogInt
-Given an elementary integrable element in a logarithmic tower, for example, {{< math >}} $\mathbb{C}(x, \log(x))$ {{< /math >}}, the Algorithm AddInt_log can find its elementary integral, while "int" command in Maple can only return the input without computing.
+Given an elementary integrable element in a logarithmic tower, for example, {{< math >}} $\mathbb{C}(x, \log(x))$ {{< /math >}}, the Algorithm **AddInt_log** can find its elementary integral, while **int** in Maple can only return the input without computing.
 ![LogInt](LogInt.png)
 
 ## LogPart
-Given an element in {{< math >}} $\mathbb{C}(x, \log(x), \log(\log(x)))$ {{< /math >}}, the Algorithm EH and Algorithm {{< math >}}EH$^*$ {{< /math >}} can compute its logarithmic part and the complete logarithmic part, respectively.
+Given an element in a logarithmic tower, for example, in {{< math >}} $\mathbb{C}(x, \log(x), \log(\log(x)))$ {{< /math >}}, the Algorithm **EH** and Algorithm **{{< math >}} EH$^*$ {{< /math >}}** can compute its logarithmic part and the complete logarithmic part, respectively.
 ![LogPart](LogPart.png)
 
 ## SprimInt
-By an analogue of Algorithm AddInt_log, we can also find elementary integrals for elements in S-primitive towers while Maple int cannot.
+By an analogue of Algorithm **AddInt_log**, we can also find elementary integrals for elements in S-primitive towers while Maple **int** cannot.
 ![SprimInt](SprimInt.png)
 
 {{% callout note %}}
