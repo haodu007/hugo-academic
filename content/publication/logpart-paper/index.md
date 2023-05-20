@@ -49,7 +49,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'http://www.mmrc.iss.ac.cn/~zmli/ISSAC2023/ISSAC2023.pdf'
-url_code: 'https://github.com/haodu007/LogPart'
+url_code: 'https://github.com/haodu007/LogPart/tree/main/code'
 url_dataset: 'https://github.com/haodu007/LogPart/tree/main/experiments'
 #url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 #url_poster: ''
