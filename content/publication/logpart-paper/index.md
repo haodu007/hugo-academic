@@ -82,11 +82,11 @@ slides: ""
 --------
 ## LogInt
 Given an elementary integrable element in a logarithmic tower, for example, {{< math >}} $\mathbb{C}(x, \log(x))$ {{< /math >}}, Algorithm **AddInt_log** and Maple int can both compute its elementary integral.
-![LogInt](LogInt.png)
+![LogInt](logint.png)
 
 ## LogPart
 Given an element in a logarithmic tower, for example, in {{< math >}} $\mathbb{C}(x, \log(x), \log(\log(x)))$ {{< /math >}}, the Algorithm **EH** and Algorithm **{{< math >}} EH$^*$ {{< /math >}}** can compute its logarithmic part and the complete logarithmic part, respectively.
-![LogPart](LogPart.jpg)
+![LogPart](LogPart.png)
 
 ## SprimInt
 By an analogue of Algorithm **AddInt_log**, we compute for elements in S-primitive towers while Maple **int** cannot.
